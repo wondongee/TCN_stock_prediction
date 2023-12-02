@@ -1,0 +1,78 @@
+2023-10-17 08:55:36,771 INFO    MainThread:2775851 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-17 08:55:36,771 INFO    MainThread:2775851 [wandb_setup.py:_flush():76] Configure stats pid to 2775851
+2023-10-17 08:55:36,771 INFO    MainThread:2775851 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2023-10-17 08:55:36,771 INFO    MainThread:2775851 [wandb_setup.py:_flush():76] Loading settings from /workspace/TCN/wandb/settings
+2023-10-17 08:55:36,771 INFO    MainThread:2775851 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-10-17 08:55:36,771 INFO    MainThread:2775851 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-17 08:55:36,771 INFO    MainThread:2775851 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-17 08:55:36,772 INFO    MainThread:2775851 [wandb_init.py:_log_setup():528] Logging user logs to /workspace/TCN/wandb/run-20231017_085536-4uoxi9ge/logs/debug.log
+2023-10-17 08:55:36,772 INFO    MainThread:2775851 [wandb_init.py:_log_setup():529] Logging internal logs to /workspace/TCN/wandb/run-20231017_085536-4uoxi9ge/logs/debug-internal.log
+2023-10-17 08:55:36,772 INFO    MainThread:2775851 [wandb_init.py:_jupyter_setup():474] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fdcd5a4b0a0>
+2023-10-17 08:55:36,772 INFO    MainThread:2775851 [wandb_init.py:init():568] calling init triggers
+2023-10-17 08:55:36,772 INFO    MainThread:2775851 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {'learning_rate': 5e-05, 'epochs': 200, 'batch_size': 256}
+2023-10-17 08:55:36,772 INFO    MainThread:2775851 [wandb_init.py:init():593] re-initializing run, found existing run on stack: 9mrgsgyo
+2023-10-17 08:55:36,774 INFO    MainThread:2775851 [wandb_run.py:_finish():1934] finishing run dwryu/TCN/9mrgsgyo
+2023-10-17 08:55:36,774 INFO    MainThread:2775851 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-10-17 08:55:36,774 INFO    MainThread:2775851 [wandb_run.py:_restore():2151] restore
+2023-10-17 08:55:36,774 INFO    MainThread:2775851 [wandb_run.py:_restore():2157] restore done
+2023-10-17 08:55:51,737 INFO    MainThread:2775851 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-17 08:55:51,738 INFO    MainThread:2775851 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-17 08:55:51,747 INFO    MainThread:2775851 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-10-17 08:55:51,798 INFO    MainThread:2775851 [wandb_init.py:init():618] starting backend
+2023-10-17 08:55:51,798 INFO    MainThread:2775851 [wandb_init.py:init():622] setting up manager
+2023-10-17 08:55:51,809 INFO    MainThread:2775851 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-17 08:55:51,809 INFO    MainThread:2775851 [wandb_init.py:init():628] backend started and connected
+2023-10-17 08:55:51,821 INFO    MainThread:2775851 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-17 08:55:51,821 INFO    MainThread:2775851 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-10-17 08:55:51,821 INFO    MainThread:2775851 [wandb_init.py:init():720] updated telemetry
+2023-10-17 08:55:51,823 INFO    MainThread:2775851 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-17 08:55:53,572 WARNING MainThread:2775851 [wandb_init.py:init():1192] interrupted
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1170, in init
+    run = wi.init()
+  File "/opt/conda/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 756, in init
+    result = run_init_handle.wait(
+  File "/opt/conda/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/opt/conda/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/opt/conda/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/opt/conda/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/opt/conda/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2023-10-17 08:56:03,152 INFO    MainThread:2775851 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-17 08:56:03,152 INFO    MainThread:2775851 [wandb_setup.py:_flush():76] Configure stats pid to 2775851
+2023-10-17 08:56:03,152 INFO    MainThread:2775851 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2023-10-17 08:56:03,152 INFO    MainThread:2775851 [wandb_setup.py:_flush():76] Loading settings from /workspace/TCN/wandb/settings
+2023-10-17 08:56:03,152 INFO    MainThread:2775851 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-10-17 08:56:03,152 INFO    MainThread:2775851 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-17 08:56:03,152 INFO    MainThread:2775851 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-17 08:56:03,152 INFO    MainThread:2775851 [wandb_init.py:_log_setup():528] Logging user logs to /workspace/TCN/wandb/run-20231017_085603-s0r8cksy/logs/debug.log
+2023-10-17 08:56:03,152 INFO    MainThread:2775851 [wandb_init.py:_log_setup():529] Logging internal logs to /workspace/TCN/wandb/run-20231017_085603-s0r8cksy/logs/debug-internal.log
+2023-10-17 08:56:03,152 INFO    MainThread:2775851 [wandb_init.py:init():568] calling init triggers
+2023-10-17 08:56:03,152 INFO    MainThread:2775851 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.0001, 'epochs': 200, 'batch_size': 256}
+2023-10-17 08:56:03,152 INFO    MainThread:2775851 [wandb_init.py:init():618] starting backend
+2023-10-17 08:56:03,152 INFO    MainThread:2775851 [wandb_init.py:init():622] setting up manager
+2023-10-17 08:56:03,154 INFO    MainThread:2775851 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-17 08:56:03,154 INFO    MainThread:2775851 [wandb_init.py:init():628] backend started and connected
+2023-10-17 08:56:03,160 INFO    MainThread:2775851 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-17 08:56:03,160 INFO    MainThread:2775851 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-10-17 08:56:03,160 INFO    MainThread:2775851 [wandb_init.py:init():720] updated telemetry
+2023-10-17 08:56:03,160 INFO    MainThread:2775851 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-17 08:56:08,739 WARNING MsgRouterThr:2775851 [router.py:message_loop():77] message_loop has been closed
+2023-10-17 08:57:33,233 ERROR   MainThread:2775851 [wandb_init.py:init():779] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2023-10-17 08:57:33,283 ERROR   MainThread:2775851 [wandb_init.py:init():1188] Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1170, in init
+    run = wi.init()
+  File "/opt/conda/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 785, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-

@@ -1,0 +1,86 @@
+2023-10-17 08:55:52,739 INFO    StreamThr :2776276 [internal.py:wandb_internal():86] W&B internal server running at pid: 2776276, started at: 2023-10-17 08:55:52.738688
+2023-10-17 08:55:52,741 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status
+2023-10-17 08:55:52,745 INFO    WriterThread:2776276 [datastore.py:open_for_write():85] open: /workspace/TCN/wandb/run-20231017_085536-4uoxi9ge/run-4uoxi9ge.wandb
+2023-10-17 08:55:52,746 DEBUG   SenderThread:2776276 [sender.py:send():380] send: header
+2023-10-17 08:55:52,746 DEBUG   SenderThread:2776276 [sender.py:send():380] send: run
+2023-10-17 08:55:58,277 INFO    SenderThread:2776276 [dir_watcher.py:__init__():211] watching files in: /workspace/TCN/wandb/run-20231017_085536-4uoxi9ge/files
+2023-10-17 08:55:58,277 INFO    SenderThread:2776276 [sender.py:_start_run_threads():1122] run started: 4uoxi9ge with start time 1697532951.810051
+2023-10-17 08:55:58,277 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:03,156 INFO    StreamThr :2776276 [internal.py:wandb_internal():86] W&B internal server running at pid: 2776276, started at: 2023-10-17 08:56:03.156044
+2023-10-17 08:56:03,159 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status
+2023-10-17 08:56:03,162 INFO    WriterThread:2776276 [datastore.py:open_for_write():85] open: /workspace/TCN/wandb/run-20231017_085603-s0r8cksy/run-s0r8cksy.wandb
+2023-10-17 08:56:03,163 DEBUG   SenderThread:2776276 [sender.py:send():380] send: header
+2023-10-17 08:56:03,163 DEBUG   SenderThread:2776276 [sender.py:send():380] send: run
+2023-10-17 08:56:03,278 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:08,169 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:56:08,279 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:08,740 INFO    SenderThread:2776276 [dir_watcher.py:__init__():211] watching files in: /workspace/TCN/wandb/run-20231017_085603-s0r8cksy/files
+2023-10-17 08:56:08,740 INFO    SenderThread:2776276 [sender.py:_start_run_threads():1122] run started: s0r8cksy with start time 1697532963.15454
+2023-10-17 08:56:08,741 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:13,173 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:56:13,280 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:13,742 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:18,176 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:56:18,281 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:18,742 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:23,180 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:56:23,282 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:23,743 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:28,185 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:56:28,283 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:28,744 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:33,188 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:56:33,284 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:33,745 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:38,192 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:56:38,285 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:38,746 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:43,196 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:56:43,285 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:43,747 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:48,200 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:56:48,286 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:48,748 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:53,204 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:56:53,287 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:53,749 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:58,208 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:56:58,288 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:56:58,750 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:03,211 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:57:03,289 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:03,751 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:08,215 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:57:08,290 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:08,752 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:13,219 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:57:13,291 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:13,753 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:18,222 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:57:18,292 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:18,753 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:23,226 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:57:23,293 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:23,754 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:28,230 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-17 08:57:28,294 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:28,755 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:33,233 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: cancel
+2023-10-17 08:57:33,242 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: cancel
+2023-10-17 08:57:33,295 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:33,756 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:38,296 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:38,758 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:43,297 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:43,759 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:48,271 WARNING StreamThr :2776276 [internal.py:is_dead():414] Internal process exiting, parent pid 2775851 disappeared
+2023-10-17 08:57:48,271 ERROR   StreamThr :2776276 [internal.py:wandb_internal():152] Internal process shutdown.
+2023-10-17 08:57:48,298 DEBUG   HandlerThread:2776276 [handler.py:handle_request():146] handle_request: status_report
+2023-10-17 08:57:48,759 INFO    SenderThread:2776276 [sender.py:finish():1534] shutting down sender
+2023-10-17 08:57:48,759 INFO    SenderThread:2776276 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-10-17 08:57:48,760 INFO    HandlerThread:2776276 [handler.py:finish():866] shutting down handler
+2023-10-17 08:57:48,760 INFO    WriterThread:2776276 [datastore.py:close():294] close: /workspace/TCN/wandb/run-20231017_085603-s0r8cksy/run-s0r8cksy.wandb
+2023-10-17 08:57:49,185 INFO    MainThread:2776276 [internal.py:handle_exit():76] Internal process exited
+2023-10-17 08:57:49,185 INFO    MainThread:2776276 [internal.py:handle_exit():76] Internal process exited
+2023-10-17 08:57:49,185 INFO    MainThread:2776276 [internal.py:handle_exit():76] Internal process exited
+2023-10-17 08:57:49,185 INFO    MainThread:2776276 [internal.py:handle_exit():76] Internal process exited

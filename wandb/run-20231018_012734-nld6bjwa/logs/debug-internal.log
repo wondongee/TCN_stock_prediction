@@ -1,0 +1,87 @@
+2023-10-18 01:27:34,145 INFO    StreamThr :3581973 [internal.py:wandb_internal():86] W&B internal server running at pid: 3581973, started at: 2023-10-18 01:27:34.144881
+2023-10-18 01:27:34,148 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: status
+2023-10-18 01:27:34,159 INFO    WriterThread:3581973 [datastore.py:open_for_write():85] open: /workspace/TCN/wandb/run-20231018_012734-nld6bjwa/run-nld6bjwa.wandb
+2023-10-18 01:27:34,160 DEBUG   SenderThread:3581973 [sender.py:send():380] send: header
+2023-10-18 01:27:34,162 DEBUG   SenderThread:3581973 [sender.py:send():380] send: run
+2023-10-18 01:27:39,171 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:27:44,176 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:27:49,180 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:27:54,185 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:27:59,190 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:28:04,195 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:28:09,199 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:28:14,204 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:28:19,209 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:28:24,214 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:28:29,219 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:28:34,224 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:28:39,229 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:28:44,234 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:28:49,239 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:28:54,244 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:28:55,500 INFO    SenderThread:3581973 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/opt/conda/lib/python3.10/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/opt/conda/lib/python3.10/http/client.py", line 1374, in getresponse
+    response.begin()
+  File "/opt/conda/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/opt/conda/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/conda/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/opt/conda/lib/python3.10/ssl.py", line 1274, in recv_into
+    return self.read(nbytes, buffer)
+  File "/opt/conda/lib/python3.10/ssl.py", line 1130, in read
+    return self._sslobj.read(len, buffer)
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/opt/conda/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/opt/conda/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/opt/conda/lib/python3.10/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/opt/conda/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/opt/conda/lib/python3.10/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/opt/conda/lib/python3.10/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=20)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 366, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/opt/conda/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/opt/conda/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/opt/conda/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/opt/conda/lib/python3.10/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/opt/conda/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/conda/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/conda/lib/python3.10/site-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=20)
+2023-10-18 01:28:59,249 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-18 01:29:04,253 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: cancel
+2023-10-18 01:29:04,253 DEBUG   HandlerThread:3581973 [handler.py:handle_request():146] handle_request: cancel
+2023-10-18 01:29:14,176 INFO    MainThread:3581973 [internal.py:handle_exit():76] Internal process exited
