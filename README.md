@@ -1,3 +1,3 @@
 # TCN
 
-Temporal Convolutional Network
+Stock Prediction using Temporal Convolutional Network
